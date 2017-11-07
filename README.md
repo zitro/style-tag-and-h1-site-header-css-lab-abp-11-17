@@ -12,7 +12,7 @@ Open `index.html` in your text editor. Add a `<style>` tag to the `head` of the 
 
 ### `h1`
 
-Style the `h1` with an element selector and give it a `font-size` of `60px` and a `font-weight` of `300` and a `font-family` of `"Helvetica", "Arial", "San-Serif"`.
+Style the `h1` with an element selector and give it a `font-size` of `60px` and a `font-weight` of `300` and a `font-family` of `"Helvetica", "Arial", "sans-serif"`.
 
 ### `h3`
 

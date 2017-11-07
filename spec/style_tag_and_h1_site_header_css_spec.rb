@@ -58,7 +58,7 @@ RSpec.describe "Styling an <h1> with a <style> tag and Element Selector" do
       expect(font_size).to match(/300/i)
     end
 
-    it 'makes the font-family of <h1> Helvetica, Arial, San-Serif' do
+    it 'makes the font-family of <h1> Helvetica, Arial, sans-serif' do
       html = Nokogiri::HTML(File.read("./index.html")) do |config| 
         config.strict.dtdload.dtdvalid.noblanks
       end
